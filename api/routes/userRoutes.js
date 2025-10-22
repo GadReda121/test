@@ -1,7 +1,7 @@
 const { body } = require('express-validator');
-const { getAllUsers, deleteUser, updateUser, createUser, getUserById, login } = require('../controllers/usersCrud');
-const { verifyToken } = require('../middleware/verifyToken');
-const { allowedTo } = require('../utils/allowedTo');
+const { getAllUsers, deleteUser, updateUser, createUser, getUserById, login } = require('../../controllers/usersCrud');
+const { verifyToken } = require('../../middleware/verifyToken');
+const { allowedTo } = require('../../utils/allowedTo');
 
 const router = require('express').Router();
 

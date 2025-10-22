@@ -22,6 +22,11 @@ app.use((req, res) => {
     res.status(404).send({ message: "Route not found" });
 });
 
+// ده كود بسيط بيقول "Hello" لما تفتح الرابط الرئيسي
+export default function handler(request, response) {
+    response.status(200).json({ message: 'Hello from Vercel!' });
+}
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
