@@ -1,5 +1,5 @@
-const { getAllCourses, addCourse, getCourseById, updateCourse, deleteCourse } = require('../controllers/coursesCrud');
-const validationSchema = require('../middleware/validationSchema');
+const { getAllCourses, addCourse, getCourseById, updateCourse, deleteCourse } = require('./controllers/coursesCrud');
+const validationSchema = require('./middleware/validationSchema');
 
 const router = require('express').Router();
 
