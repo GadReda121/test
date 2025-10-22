@@ -1,0 +1,33 @@
+{
+  "name": "gad",
+  "version": "1.0.0",
+  "description": "gad is simple tool for frontend!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "commander": "^14.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "formidable": "^3.5.4",
+    "inquirer": "^9.2.13",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.19.1",
+    "multer": "^2.0.2",
+    "validator": "^13.15.15"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
